@@ -1,0 +1,25 @@
+body { margin: 0; font-family: 'Noto Sans Thai', sans-serif; background: #eef4f7; }
+h1, h2 { font-family: 'Mitr', sans-serif; }
+h2 { color: #2c5f7a; }
+
+.top, .foot { background: #2c5f7a; color: white; text-align: center; padding: 2rem; }
+.foot a { color: white; }
+.main { width: 80%; max-width: 800px; margin: 2rem auto; padding: 1rem 2rem; background: white; }
+
+.btn { display: inline-block; background: orange; color: white; padding: .6rem 1.5rem;
+       border-radius: 10px; text-decoration: none; border: none; }
+.btn:hover { background: darkorange; }
+
+.profile { margin: auto; }
+.profile td { padding: 0 1.5rem; }
+.profile img { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; }
+
+.exp { width: 100%; border-collapse: collapse; }
+.exp th { background: #2c5f7a; color: white; }
+.exp th, .exp td { border: 1px solid #ccc; padding: .5rem; }
+
+.skill { margin: auto; border: 3px dashed brown; }
+.skill td { padding: .4rem 1rem; }
+
+.contact label { display: block; margin-top: 1rem; }
+.contact input, .contact textarea { width: 100%; padding: .5rem; box-sizing: border-box; }
